@@ -1,7 +1,7 @@
 # MyHttp
 > Easy to use API to make timeout supported http GET requests in Go.
 
-![](https://goreportcard.com/badge/github.com/inancgumus/myhttp)
+![Go Report Card](https://goreportcard.com/badge/github.com/inancgumus/myhttp) [![Coverage Status](https://coveralls.io/repos/github/inancgumus/myhttp/badge.svg?branch=master)](https://coveralls.io/github/inancgumus/myhttp?branch=master)
 
 MyHttp is for coders who don't want to write timeout support logic and don't want to deal with heavy APIs, just to make http GET request in Go.
 
