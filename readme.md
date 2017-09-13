@@ -53,7 +53,7 @@ if err != nil {
 
 Inanc Gumus – [@inancgumus](https://twitter.com/inancgumus) – inanc@pixenka.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
