@@ -15,6 +15,10 @@ I'd been dealing with this issue myself, I read many documents, and saw that the
 go get github.com/inancgumus/myhttp
 ```
 
+## Documentation
+
+See [MyHttp GoDoc](https://godoc.org/github.com/inancgumus/myhttp) for the documentation.
+
 ## Usage example
 
 ### Get
