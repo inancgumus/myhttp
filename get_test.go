@@ -20,8 +20,6 @@ import (
 // 0 ==> use the default timeout of myhttp
 const timeout = 0
 
-// TODO: Remove `Get` API, rename `WrapGet` to `Get`
-//       publish to github
 func TestHttpGet(t *testing.T) {
 	t.Parallel()
 
