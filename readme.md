@@ -26,7 +26,12 @@ See [MyHttp GoDoc](https://godoc.org/github.com/inancgumus/myhttp) for the docum
 `Get` simply gets the url and returns an `http.Response`.
 
 ```go
-mh := myhttp.New(Time.Second * 10) // timeout after 10 seconds
+import (
+	"time"
+	"github.com/inancgumus/myhttp"
+)
+
+mh := myhttp.New(time.Second * 10) // timeout after 10 seconds
 
 res, err := mh.Get("http://www.domain.com/foo")
 if err != nil {
@@ -41,7 +46,12 @@ if err != nil {
 `WrapGet` accepts a function in its second argument and runs it after getting the `http.Response` from the url and automatically closes the http.Response.Body, in case you may forget to close it.
 
 ```go
-mh := myhttp.New(Time.Second * 10) // timeout after 10 seconds
+import (
+	"time"
+	"github.com/inancgumus/myhttp"
+)
+
+mh := myhttp.New(time.Second * 10) // timeout after 10 seconds
 
 err := mh.WrapGet("http://www.domain.com/foo", func(r *http.Response) error {
 	// use res here...
