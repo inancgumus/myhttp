@@ -65,7 +65,7 @@ if err != nil {
 
 ## Author
 
-Inanc Gumus – [@inancgumus](https://twitter.com/inancgumus) – inanc@pixenka.com
+Inanc Gumus – [@inancgumus](https://twitter.com/inancgumus)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
